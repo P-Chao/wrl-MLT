@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Wrl Reader">
+      <UniqueIdentifier>{aa2cf4ca-a1e5-4154-ade0-add74c70ad67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protobuf">
+      <UniqueIdentifier>{2b728383-7ced-40af-ba44-e76f66a36ef1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Face Detection">
+      <UniqueIdentifier>{6db7a188-9575-4ec0-8316-770302b38660}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Face Detection\Source">
+      <UniqueIdentifier>{b7397ec0-2ab7-42ae-9603-b4c93128a186}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Face Detection\Header">
+      <UniqueIdentifier>{ee175869-703b-469c-91a5-689fd65f05de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Face Detection\Resource">
+      <UniqueIdentifier>{f8dadde7-555d-4379-bcb9-9de78a43a3b0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ModelLabelTool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelLabelToolDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="icp.h">
+      <Filter>Wrl Reader</Filter>
+    </ClInclude>
+    <ClInclude Include="Scalar.h">
+      <Filter>Wrl Reader</Filter>
+    </ClInclude>
+    <ClInclude Include="wrl.h">
+      <Filter>Wrl Reader</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomEditListBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGLControl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="glGraber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ILabelControl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mlt.pb.h">
+      <Filter>Protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="io.hpp">
+      <Filter>Protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="LBF.h">
+      <Filter>Face Detection\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="LBFRegressor.h">
+      <Filter>Face Detection\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomForest.h">
+      <Filter>Face Detection\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="linear.h">
+      <Filter>Face Detection\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree.h">
+      <Filter>Face Detection\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="tron.h">
+      <Filter>Face Detection\Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ModelLabelTool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelLabelToolDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="icp.cpp">
+      <Filter>Wrl Reader</Filter>
+    </ClCompile>
+    <ClCompile Include="wrl.cpp">
+      <Filter>Wrl Reader</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomEditListBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGLControl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="glGraber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ILabelControl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelLabel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mlt.pb.cc">
+      <Filter>Protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="io.cpp">
+      <Filter>Protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="facedetect.cpp">
+      <Filter>Face Detection\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="LBF.cpp">
+      <Filter>Face Detection\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="LBFRegressor.cpp">
+      <Filter>Face Detection\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="objectDetection.cpp">
+      <Filter>Face Detection\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomForest.cpp">
+      <Filter>Face Detection\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="linear.cpp">
+      <Filter>Face Detection\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TestDemo.cpp">
+      <Filter>Face Detection\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TrainDemo.cpp">
+      <Filter>Face Detection\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree.cpp">
+      <Filter>Face Detection\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="tron.cpp">
+      <Filter>Face Detection\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Face Detection\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ModelLabelTool.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\ModelLabelTool.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="build.bat">
+      <Filter>Protobuf</Filter>
+    </None>
+    <None Include="mlt.proto">
+      <Filter>Protobuf</Filter>
+    </None>
+    <None Include="example.wlb">
+      <Filter>Protobuf</Filter>
+    </None>
+    <None Include="save.wlb">
+      <Filter>Protobuf</Filter>
+    </None>
+    <None Include="default.wlb">
+      <Filter>Protobuf</Filter>
+    </None>
+    <None Include="LBF.model">
+      <Filter>Face Detection\Resource</Filter>
+    </None>
+    <None Include="Regressor.model">
+      <Filter>Face Detection\Resource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\ModelLabelTool.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\toolbar1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\toolbar2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="light\appbar.camera.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="light\appbar.folder.open.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="light\appbar.save.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="light\appbar.image.hdr.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="light\appbar.control.pause.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="light\appbar.control.play.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="light\appbar.add.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="light\appbar.information.circle.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="light\appbar.flag.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="light\appbar.opacity.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="light\appbar.cog.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="light\appbar.page.search.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="light\appbar.control.eject.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="light\appbar.control.fastforward.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="light\appbar.control.fastforward.variant.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="light\appbar.control.play.live.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="light\appbar.control.resume.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="light\appbar.control.rewind.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="light\appbar.control.rewind.variant.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="light\appbar.control.stop.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="light\appbar.refresh.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="light\appbar.disk.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="light\appbar.book.perspective.help.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="light\appbar.close.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="light\appbar.cursor.default.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="light\appbar.cursor.move.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="light\appbar.flag.bear.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="light\appbar.power.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="light\appbar.image.multiple.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="light\appbar.dnd.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="light\appbar.resource.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="haarcascade_eye_tree_eyeglasses.xml">
+      <Filter>Face Detection\Resource</Filter>
+    </Xml>
+    <Xml Include="haarcascade_frontalface_alt.xml">
+      <Filter>Face Detection\Resource</Filter>
+    </Xml>
+    <Xml Include="lbpcascade_frontalface.xml">
+      <Filter>Face Detection\Resource</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>

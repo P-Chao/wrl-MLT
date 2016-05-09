@@ -1,0 +1,122 @@
+version: "v0.2"
+wrlFileName: "E:\\CASIA-3D-FaceV1\\3D-Face-WRL\\001\\001-001.wrl"
+point {
+  id: 0
+  x: 3
+  y: 3
+}
+point {
+  id: 1
+  x: 4
+  y: 3
+}
+point {
+  id: 2
+  x: 3
+  y: 3
+}
+point {
+  id: 3
+  x: 4
+  y: 3
+}
+point {
+  id: 4
+  x: 3
+  y: 3
+}
+point {
+  id: 5
+  x: 4
+  y: 3
+}
+point {
+  id: 6
+  x: 3
+  y: 3
+}
+point {
+  id: 7
+  x: 4
+  y: 3
+}
+point {
+  id: 8
+  x: 3
+  y: 3
+}
+point {
+  id: 9
+  x: 4
+  y: 3
+}
+point {
+  id: 10
+  x: 4
+  y: 3
+}
+point {
+  id: 11
+  x: 4
+  y: 3
+}
+point {
+  id: 12
+  x: 3
+  y: 3
+}
+point {
+  id: 13
+  x: 4
+  y: 3
+}
+point {
+  id: 14
+  x: 4
+  y: 3
+}
+point {
+  id: 15
+  x: 4
+  y: 3
+}
+point {
+  id: 16
+  x: 3
+  y: 3
+}
+point {
+  id: 17
+  x: 4
+  y: 3
+}
+point {
+  id: 18
+  x: 4
+  y: 3
+}
+point {
+  id: 19
+  x: 4
+  y: 3
+}
+point {
+  id: 20
+  x: 3
+  y: 3
+}
+point {
+  id: 21
+  x: 4
+  y: 3
+}
+point {
+  id: 22
+  x: 4
+  y: 3
+}
+point {
+  id: 23
+  x: 4
+  y: 3
+}

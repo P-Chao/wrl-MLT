@@ -1,0 +1,31 @@
+// global configuration of the afc
+package mlt;
+
+message Label{
+	optional string version = 1;
+	optional string wrlFileName = 2;
+	optional string imgFileName = 3;
+	optional Info info = 4;
+	repeated Point	point = 5;
+}
+
+message Info{
+	optional double viewpoint_x = 1;
+	optional double viewpoint_y = 2;
+	optional double viewpoint_z = 3;
+	optional double lookori_x = 4;
+	optional double lookori_y = 5;
+	optional double lookori_z = 6;
+	optional double rot_x = 7;
+	optional double rot_y = 8;
+	optional double rot_z = 9;
+}
+
+message Point{
+	optional int32	id = 1;
+	optional int32	x = 2;
+	optional int32	y = 3;
+	optional double xl = 4;
+	optional double yl = 5;
+	optional double zl = 6;
+}
